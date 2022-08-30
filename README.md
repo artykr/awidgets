@@ -10,6 +10,8 @@ Please find `poetry` installation instructions here: https://python-poetry.org/d
 Run the following command-line scripts:
 
 1. `prestart-poetry.sh`. This will install the dependencies, create and pre-populate the database.
+NOTE: if you're using `pyenv` make sure to uncomment appropriate line in `prestart-poetry.sh`
+to disable virtual environments creation in `poetry`.
 2. `start.sh`. This will spin up a local web-server at port `8000`.
 
 ### Setup with pip
